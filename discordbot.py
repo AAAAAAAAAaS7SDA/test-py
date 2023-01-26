@@ -1,6 +1,6 @@
 import discord, asyncio
 from discord.ext import commands
-import  datetime, pytz
+import  datetime
 import random
 import time , os
 
