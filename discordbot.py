@@ -22,7 +22,7 @@ async def on_message(message):
     if message.content == f'{PREFIX}call':
         await message.channel.send("callback!")
 
-    if message.content.startswith(f'{PREFIX}hello'):
+    if message.content.startswith(f'{PREFIX}hello!'):
         await message.channel.send('Hello!')
 
 
